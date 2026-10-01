@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  FlowBoard is a single-route app (everything past "/" is behind login),
+  so this sitemap is minimal by nature rather than incomplete.
+  TODO: replace https://example.com/ with the real deployed domain.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

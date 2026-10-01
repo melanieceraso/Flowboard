@@ -1,0 +1,28 @@
+.auth { max-width: 448px; margin: 96px auto 0; padding: 0 16px; text-align: center; }
+.auth h1 { margin: 0 0 8px; font-size: 24px; font-weight: 500; }
+.auth__sub { margin: 0 0 32px; color: var(--muted); }
+.auth__card { display: flex; flex-direction: column; gap: 16px; text-align: left; }
+.auth__message { margin: 0; color: var(--danger); font-size: 14px; }
+.auth__toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--primary);
+  cursor: pointer;
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+}
+.auth__test {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background: #f3f4f6;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 14px;
+}

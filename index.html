@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0369a1" />
+    <title>FlowBoard – Team Kanban Board</title>
+    <meta
+      name="description"
+      content="FlowBoard is a simple team kanban board for tracking tasks across Backlog, In Progress, In Review, and Done."
+    />
+    <!-- TODO: replace https://example.com/ with the real deployed domain throughout, and add a real 1200x630 og:image. -->
+    <link rel="canonical" href="https://example.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FlowBoard" />
+    <meta property="og:title" content="FlowBoard – Team Kanban Board" />
+    <meta
+      property="og:description"
+      content="FlowBoard is a simple team kanban board for tracking tasks across Backlog, In Progress, In Review, and Done."
+    />
+    <meta property="og:url" content="https://example.com/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="FlowBoard – Team Kanban Board" />
+    <meta
+      name="twitter:description"
+      content="FlowBoard is a simple team kanban board for tracking tasks across Backlog, In Progress, In Review, and Done."
+    />
+
+    <!-- Fonts: preconnect + non-blocking stylesheet link instead of a render-blocking CSS @import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Speeds up the first auth/data request -->
+    <link rel="preconnect" href="https://nnnxvzgasnahnrqcvwtp.supabase.co" />
+
+    <!-- GEO: structured data so AI answer engines can describe FlowBoard accurately -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "FlowBoard",
+        "description": "A simple team kanban board for tracking tasks across Backlog, In Progress, In Review, and Done.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

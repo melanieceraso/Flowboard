@@ -1,0 +1,6 @@
+# FlowBoard is a single-route app behind login; there is no other public
+# content to crawl. TODO: replace example.com with the real deployed domain.
+User-agent: *
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml

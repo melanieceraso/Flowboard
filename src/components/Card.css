@@ -1,0 +1,33 @@
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: grab;
+  text-align: left;
+}
+.card:hover { border-color: rgba(0, 0, 0, 0.25); }
+.card:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.card:active { cursor: grabbing; }
+.card__title { margin: 0; font-size: 14px; line-height: 20px; letter-spacing: -0.15px; word-break: break-word; }
+.card__meta { display: flex; align-items: center; gap: 8px; font-size: 12px; line-height: 16px; color: var(--muted); }
+.card__due--overdue { color: var(--danger); }
+.card__assignee {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--avatar);
+  color: #fff;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.badge { padding: 0 8px; border-radius: 9999px; font-weight: 500; }
+.badge--high { background: #fee2e2; color: #b91c1c; }
+.badge--medium { background: #fef3c7; color: #b45309; }
+.badge--low { background: #dcfce7; color: #15803d; }
